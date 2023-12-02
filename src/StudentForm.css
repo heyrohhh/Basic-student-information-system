@@ -1,0 +1,40 @@
+/* StudentForm.css */
+form {
+    display: flex;
+    flex-direction: column;   
+  }
+  
+  label {
+    margin-bottom: 2px;
+  }
+  
+  input {
+    margin-bottom: 2px;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .studentform{
+    width: 20rem;
+    border: 2px solid black;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: white;
+  }
+  @media screen and (max-width: 1000px){
+    .studentform{
+      width: 18rem;
+      font-size: medium;
+      border: 2px solid black;
+      max-width: 400px;
+      box-shadow: 5px 5px 5px 5px grey;
+      background-color: white;
+    }
+  }

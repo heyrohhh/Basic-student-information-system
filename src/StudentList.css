@@ -1,0 +1,43 @@
+/* StudentList.css */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+.studentlist{
+  width: 20rem;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 5px grey;
+  background-color: white;
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 1000px){
+  .studentlist{
+    width: 18rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: white;
+    height: 18rem;
+    margin-bottom: .9rem;
+    overflow-y: scroll;
+  }
+}
